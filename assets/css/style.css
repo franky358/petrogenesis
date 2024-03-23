@@ -852,6 +852,58 @@ h1,h2,h3,h4,h5,h6{
   top: 0px;
 }
 
+.left-1\/2{
+  left: 50%;
+}
+
+.top-1\/2{
+  top: 50%;
+}
+
+.top-56{
+  top: 14rem;
+}
+
+.left-32{
+  left: 8rem;
+}
+
+.left-56{
+  left: 14rem;
+}
+
+.left-96{
+  left: 24rem;
+}
+
+.left-64{
+  left: 16rem;
+}
+
+.left-80{
+  left: 20rem;
+}
+
+.left-52{
+  left: 13rem;
+}
+
+.right-1\/4{
+  right: 25%;
+}
+
+.right-12{
+  right: 3rem;
+}
+
+.right-4{
+  right: 1rem;
+}
+
+.right-6{
+  right: 1.5rem;
+}
+
 .z-50{
   z-index: 50;
 }
@@ -910,12 +962,8 @@ h1,h2,h3,h4,h5,h6{
   margin-top: 2rem;
 }
 
-.me-3{
-  margin-inline-end: 0.75rem;
-}
-
-.ms-2{
-  margin-inline-start: 0.5rem;
+.mb-32{
+  margin-bottom: 8rem;
 }
 
 .block{
@@ -942,12 +990,20 @@ h1,h2,h3,h4,h5,h6{
   display: none;
 }
 
+.h-10{
+  height: 2.5rem;
+}
+
 .h-14{
   height: 3.5rem;
 }
 
 .h-28{
   height: 7rem;
+}
+
+.h-5{
+  height: 1.25rem;
 }
 
 .h-6{
@@ -970,10 +1026,6 @@ h1,h2,h3,h4,h5,h6{
   height: 58px;
 }
 
-.h-\[60px\]{
-  height: 60px;
-}
-
 .h-auto{
   height: auto;
 }
@@ -990,20 +1042,32 @@ h1,h2,h3,h4,h5,h6{
   height: 5rem;
 }
 
-.h-4{
-  height: 1rem;
+.h-40{
+  height: 10rem;
 }
 
-.h-5{
-  height: 1.25rem;
+.h-52{
+  height: 13rem;
 }
 
-.h-10{
-  height: 2.5rem;
+.h-60{
+  height: 15rem;
+}
+
+.h-56{
+  height: 14rem;
+}
+
+.max-h-56{
+  max-height: 14rem;
 }
 
 .w-1{
   width: 0.25rem;
+}
+
+.w-10{
+  width: 2.5rem;
 }
 
 .w-20{
@@ -1034,24 +1098,8 @@ h1,h2,h3,h4,h5,h6{
   width: 58px;
 }
 
-.w-\[60px\]{
-  width: 60px;
-}
-
 .w-full{
   width: 100%;
-}
-
-.w-4{
-  width: 1rem;
-}
-
-.w-5{
-  width: 1.25rem;
-}
-
-.w-10{
-  width: 2.5rem;
 }
 
 .min-w-max{
@@ -1083,20 +1131,12 @@ h1,h2,h3,h4,h5,h6{
   flex-shrink: 0;
 }
 
-.transform{
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
 .list-disc{
   list-style-type: disc;
 }
 
 .list-none{
   list-style-type: none;
-}
-
-.list-image-\[url\(https\:\/\/media\.geeksforgeeks\.org\/wp-content\/uploads\/20240303100755\/academic-cap\.png\)\]{
-  list-style-image: url(https://media.geeksforgeeks.org/wp-content/uploads/20240303100755/academic-cap.png);
 }
 
 .grid-cols-1{
@@ -1123,10 +1163,6 @@ h1,h2,h3,h4,h5,h6{
   justify-content: space-between;
 }
 
-.justify-around{
-  justify-content: space-around;
-}
-
 .justify-evenly{
   justify-content: space-evenly;
 }
@@ -1145,10 +1181,6 @@ h1,h2,h3,h4,h5,h6{
 
 .gap-8{
   gap: 2rem;
-}
-
-.gap-2{
-  gap: 0.5rem;
 }
 
 .space-x-3 > :not([hidden]) ~ :not([hidden]){
@@ -1205,10 +1237,6 @@ h1,h2,h3,h4,h5,h6{
   border-radius: 0px;
 }
 
-.rounded-lg{
-  border-radius: 0.5rem;
-}
-
 .border{
   border-width: 1px;
 }
@@ -1231,6 +1259,10 @@ h1,h2,h3,h4,h5,h6{
   border-bottom-color: rgb(30 203 103 / var(--tw-border-opacity));
 }
 
+.bg-\[\#1f232d\]\/50{
+  background-color: rgb(31 35 45 / 0.5);
+}
+
 .bg-\[\#1f232d\]\/70{
   background-color: rgb(31 35 45 / 0.7);
 }
@@ -1250,10 +1282,6 @@ h1,h2,h3,h4,h5,h6{
   background-color: rgb(30 203 103 / var(--tw-bg-opacity));
 }
 
-.bg-green\/20{
-  background-color: rgb(30 203 103 / 0.2);
-}
-
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -1261,22 +1289,6 @@ h1,h2,h3,h4,h5,h6{
 
 .bg-white\/10{
   background-color: rgb(255 255 255 / 0.1);
-}
-
-.bg-\[\#1f232d\]\/90{
-  background-color: rgb(31 35 45 / 0.9);
-}
-
-.bg-\[\#1f232d\]\/50{
-  background-color: rgb(31 35 45 / 0.5);
-}
-
-.bg-\[\#1f232d\]\/20{
-  background-color: rgb(31 35 45 / 0.2);
-}
-
-.bg-\[\#1f232d\]\/40{
-  background-color: rgb(31 35 45 / 0.4);
 }
 
 .bg-opacity-50{
@@ -1355,6 +1367,54 @@ h1,h2,h3,h4,h5,h6{
   background-image: url('../images/what-we-offer-hero.jpg');
 }
 
+.bg-\[url\(\'\.\.\/images\/solutions-suply\.jpg\'\)\]{
+  background-image: url('../images/solutions-suply.jpg');
+}
+
+.bg-\[url\(\'\.\.\/images\/charge\.JPG\'\)\]{
+  background-image: url('../images/charge.JPG');
+}
+
+.bg-\[url\(\'\.\.\/images\/charge-2\.JPG\'\)\]{
+  background-image: url('../images/charge-2.JPG');
+}
+
+.bg-\[url\(\'\.\.\/images\/shiping\.JPG\'\)\]{
+  background-image: url('../images/shiping.JPG');
+}
+
+.bg-\[url\(\'\.\.\/images\/shipping\.JPG\'\)\]{
+  background-image: url('../images/shipping.JPG');
+}
+
+.bg-\[url\(\'\.\.\/images\/operations\.JPG\'\)\]{
+  background-image: url('../images/operations.JPG');
+}
+
+.bg-\[url\(\'\.\.\/images\/crude-oil-1\.jpg\'\)\]{
+  background-image: url('../images/crude-oil-1.jpg');
+}
+
+.bg-\[url\(\'\.\.\/images\/crude-oil-2\.jpg\'\)\]{
+  background-image: url('../images/crude-oil-2.jpg');
+}
+
+.bg-\[url\(\'\.\.\/images\/crude-oil-2\.JPG\'\)\]{
+  background-image: url('../images/crude-oil-2.JPG');
+}
+
+.bg-\[url\(\'\.\.\/images\/tanques\.jpg\'\)\]{
+  background-image: url('../images/tanques.jpg');
+}
+
+.bg-\[url\(\'\.\.\/images\/natural_gas\.jpeg\'\)\]{
+  background-image: url('../images/natural_gas.jpeg');
+}
+
+.bg-\[url\(\'\.\.\/images\/natural_gas_2\.JPG\'\)\]{
+  background-image: url('../images/natural_gas_2.JPG');
+}
+
 .bg-auto{
   background-size: auto;
 }
@@ -1387,10 +1447,6 @@ h1,h2,h3,h4,h5,h6{
 
 .p-8{
   padding: 2rem;
-}
-
-.p-5{
-  padding: 1.25rem;
 }
 
 .px-8{
@@ -1433,6 +1489,11 @@ h1,h2,h3,h4,h5,h6{
   padding-bottom: 45px;
 }
 
+.px-4{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 .pb-16{
   padding-bottom: 4rem;
 }
@@ -1461,16 +1522,20 @@ h1,h2,h3,h4,h5,h6{
   padding-top: 125px;
 }
 
-.pb-1{
-  padding-bottom: 0.25rem;
-}
-
 .text-center{
   text-align: center;
 }
 
+.text-right{
+  text-align: right;
+}
+
 .text-justify{
   text-align: justify;
+}
+
+.text-end{
+  text-align: end;
 }
 
 .font-primary{
@@ -1502,10 +1567,6 @@ h1,h2,h3,h4,h5,h6{
 
 .text-\[28px\]{
   font-size: 28px;
-}
-
-.text-\[42px\]{
-  font-size: 42px;
 }
 
 .text-base{
@@ -1575,10 +1636,6 @@ h1,h2,h3,h4,h5,h6{
 
 .leading-\[58px\]{
   line-height: 58px;
-}
-
-.leading-\[60px\]{
-  line-height: 60px;
 }
 
 .leading-relaxed{
@@ -1962,10 +2019,6 @@ h1,h2,h3,h4,h5,h6{
     padding-top: 9rem;
   }
 
-  .md\:text-\[28px\]{
-    font-size: 28px;
-  }
-
   .md\:text-\[32px\]{
     font-size: 32px;
   }
@@ -2021,14 +2074,6 @@ h1,h2,h3,h4,h5,h6{
     width: 24rem;
   }
 
-  .lg\:w-60{
-    width: 15rem;
-  }
-
-  .lg\:w-80{
-    width: 20rem;
-  }
-
   .lg\:w-full{
     width: 100%;
   }
@@ -2045,24 +2090,12 @@ h1,h2,h3,h4,h5,h6{
     flex-direction: row;
   }
 
-  .lg\:items-start{
-    align-items: flex-start;
-  }
-
   .lg\:justify-evenly{
     justify-content: space-evenly;
   }
 
   .lg\:overflow-x-hidden{
     overflow-x: hidden;
-  }
-
-  .lg\:border-2{
-    border-width: 2px;
-  }
-
-  .lg\:border{
-    border-width: 1px;
   }
 
   .lg\:py-20{
@@ -2078,24 +2111,6 @@ h1,h2,h3,h4,h5,h6{
   .lg\:text-3xl{
     font-size: 1.875rem;
     line-height: 2.25rem;
-  }
-}
-
-@media (min-width: 1142px){
-  .xl\:border-2{
-    border-width: 2px;
-  }
-}
-
-.rtl\:rotate-180:where([dir="rtl"], [dir="rtl"] *){
-  --tw-rotate: 180deg;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-@media (prefers-color-scheme: dark){
-  .dark\:hover\:text-white:hover{
-    --tw-text-opacity: 1;
-    color: rgb(255 255 255 / var(--tw-text-opacity));
   }
 }
 

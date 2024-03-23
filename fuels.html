@@ -18,6 +18,8 @@
       href="assets/css/materialdesignicons.min.css"
     />
 
+    <link rel="stylesheet" type="text/css" href="assets/css/custom.css" />
+
     <!-- Swiper's CSS -->
     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
 
@@ -35,7 +37,7 @@
 
     <div class="fixed top-0 w-full z-50 custom-nav">
       <nav class="py-[22px] relative ease-in-out duration-500 mobile-nav">
-        <div class="container">
+        <div class="container-nav mx-auto px-4">
           <div class="flex items-center justify-between md:block">
             <div class="justify-between items-center flex w-full">
               <div class="z-50 w-20 h-14 relative lg:hidden">
@@ -142,6 +144,13 @@
                       >LPG & LNG</a
                     >
                   </li>
+                  <li class="contact">
+                    <a
+                      href="contact.html"
+                      class="text-sm hover:text-green ease-in-out duration-300 inline-block leading-6 py-2 px-[7px]"
+                      >CONTACT</a
+                    >
+                  </li>
                 </ul>
               </div>
             </div>
@@ -221,6 +230,13 @@
                     >LPG & LNG</a
                   >
                 </li>
+                <li class="contact">
+                  <a
+                    href="contact.html"
+                    class="text-sm hover:text-green ease-in-out duration-300 inline-block leading-6 py-2 px-[7px]"
+                    >CONTACT</a
+                  >
+                </li>
               </ul>
             </div>
           </div>
@@ -247,18 +263,6 @@
             <h3 class="font-secondary mt-6 text-3xl leading-7 text-white">
               Products
             </h3>
-
-            <!-- <div class="mt-6 gap-4 flex items-center justify-center">
-              <a href="#" class="btn-custom">Get Started</a>
-              <span class="text-white">or</span>
-              <a
-                href="#"
-                data-type="youtube"
-                data-id="YjhrligRTbE"
-                class="lightbox text-dark h-[58px] w-[58px] leading-[58px] rounded-full bg-white inline-block text-[26px]"
-                ><i class="mdi mdi-play"></i
-              ></a>
-            </div> -->
           </div>
         </div>
       </div>
@@ -312,13 +316,6 @@
             <li>Tucson, Arizona.</li>
             <li>Corpus Christi Port and Terminal.</li>
           </ul>
-          <div class="w-full mt-8">
-            <img
-              class="w-full h-auto object-contain"
-              src="assets/images/tanques.jpg"
-              alt="Descripción de la imagen"
-            />
-          </div>
         </div>
         <div class="w-full">
           <img
@@ -330,7 +327,15 @@
       </div>
     </div>
 
-    <footer class="bg-[#222527] py-12 mt-32">
+    <section id="tanker" class="mt-16">
+      <div
+        class="flex justify-center items-center bg-cover relative bg-center bg-fixed bg-[url('../images/tanques.jpg')] h-96"
+      >
+        <div class="absolute inset-0 w-full bg-[#1f232d]/70"></div>
+      </div>
+    </section>
+
+    <footer class="bg-[#222527] py-12">
       <div class="container">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-7 gap-6">
           <div class="md:col-span-2 lg:col-span-2">
@@ -364,14 +369,14 @@
               </li>
               <li>
                 <a
-                  href="#"
+                  href="scope.html"
                   class="text-white/40 text-sm duration-300 inline-block hover:text-white"
                   >SCOPE OF SERVICES</a
                 >
               </li>
               <li>
                 <a
-                  href="#"
+                  href="bunker-oil.html"
                   class="text-white/40 text-sm duration-300 inline-block hover:text-white"
                   >BUNKER OIL</a
                 >
@@ -382,35 +387,35 @@
             <ul class="mt-12 space-y-2.5">
               <li>
                 <a
-                  href="#"
+                  href="fuels.html"
                   class="text-white/40 text-sm duration-300 inline-block hover:text-white"
                   >FUELS</a
                 >
               </li>
               <li>
                 <a
-                  href="#"
+                  href="crude-oil.html"
                   class="text-white/40 text-sm duration-300 inline-block hover:text-white"
                   >CRUDE OIL</a
                 >
               </li>
               <li>
                 <a
-                  href="#"
+                  href="natural-gas.html"
                   class="text-white/40 text-sm duration-300 inline-block hover:text-white"
                   >NATURAL GAS</a
                 >
               </li>
               <li>
                 <a
-                  href="#"
+                  href="lpg-lng.html"
                   class="text-white/40 text-sm duration-300 inline-block hover:text-white"
                   >LPG & LNG</a
                 >
               </li>
               <li>
                 <a
-                  href="#"
+                  href="contact.html"
                   class="text-white/40 text-sm duration-300 inline-block hover:text-white"
                   >GET IN TOUCH</a
                 >

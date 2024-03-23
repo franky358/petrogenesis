@@ -18,20 +18,13 @@
       href="assets/css/materialdesignicons.min.css"
     />
 
+    <link rel="stylesheet" type="text/css" href="assets/css/custom.css" />
+
     <!-- Swiper's CSS -->
     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
 
-    <link rel="stylesheet" type="text/css" href="assets/css/custom.css" />
-
     <!-- Tobii Css -->
     <link rel="stylesheet" href="assets/css/tobii.min.css" />
-
-    <!-- Swiper-->
-
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
 
     <!-- Pe7 Icon -->
     <link rel="stylesheet" type="text/css" href="assets/css/pe-icon-7.css" />
@@ -41,10 +34,9 @@
   </head>
   <body class="antialiased text-base font-primary">
     <!-- Start Navbar -->
-
     <div class="fixed top-0 w-full z-50 custom-nav">
       <nav class="py-[22px] relative ease-in-out duration-500 mobile-nav">
-        <div class="container">
+        <div class="container-nav mx-auto px-4">
           <div class="flex items-center justify-between md:block">
             <div class="justify-between items-center flex w-full">
               <div class="z-50 w-20 h-14 relative lg:hidden">
@@ -151,6 +143,13 @@
                       >LPG & LNG</a
                     >
                   </li>
+                  <li class="contact">
+                    <a
+                      href="contact.html"
+                      class="text-sm hover:text-green ease-in-out duration-300 inline-block leading-6 py-2 px-[7px]"
+                      >CONTACT</a
+                    >
+                  </li>
                 </ul>
               </div>
             </div>
@@ -230,158 +229,181 @@
                     >LPG & LNG</a
                   >
                 </li>
+                <li class="contact">
+                  <a
+                    href="contact.html"
+                    class="text-sm hover:text-green ease-in-out duration-300 inline-block leading-6 py-2 px-[7px]"
+                    >CONTACT</a
+                  >
+                </li>
               </ul>
             </div>
           </div>
         </div>
       </nav>
     </div>
-
     <!-- End Navbar -->
 
-    <div id="solutions" class="w-full h-screen">
-      <div class="swiper mySwiper">
-        <div class="swiper-wrapper">
-          <div
-            class="swiper-slide slide_1 bg-auto bg-[url('../images/charge.jpg')]"
-          >
-            <div class="bg-[#1f232d]/70 absolute inset-0 w-full h-full"></div>
-
-            <div
-              class="slide-content text-white p-4 bg-black bg-opacity-50 max-w-md mx-auto rounded relative"
+    <!-- Start Hero -->
+    <section
+      class="lg:h-screen pt-[125px] pb-[130px] md:pt-36 md:pb-[140px] lg:py-20 lg:flex items-center justify-center bg-[url('../images/solutions-suply.jpg')] bg-cover relative bg-center"
+      id="solutions"
+    >
+      <div class="bg-[#1f232d]/70 absolute inset-0 w-full h-full"></div>
+      <div class="container relative">
+        <div class="grid grid-cols-1">
+          <div class="text-center">
+            <!-- <p><span class="border border-white/20 px-[30px] py-2 bg-white/10 rounded text-white">Awesome Web</span></p> -->
+            <h1
+              class="font-medium font-secondary mt-6 text-4xl md:text-[76px] leading-tight text-white"
             >
-              <h2
-                class="font-medium font-secondary mt-6 text-4xl md:text-[76px] leading-tight text-white"
-              >
-                Charge
-              </h2>
-              <p class="slide-description">
-                Vision International Petroleum has the complete supply chain
-                from shipping, loading, storage, blending and sourcing through
-                fleets of barges, we have the support and proven experience in
-                supply, guaranteeing a high quality service in the market.
-              </p>
-            </div>
-          </div>
-          <div
-            class="swiper-slide slide_2 bg-auto bg-[url('../images/shipping.jpg')]"
-          >
-            <div class="bg-[#1f232d]/70 absolute inset-0 w-full h-full"></div>
-
-            <div
-              class="slide-content text-white p-4 bg-black bg-opacity-50 max-w-md mx-auto rounded relative"
+              Solutions
+            </h1>
+            <h3
+              class="max-w-[570px] mx-auto pb-2 leading-7 mt-6 mb-2 text-white text-3xl"
             >
-              <h2
-                class="font-medium font-secondary mt-6 text-4xl md:text-[76px] leading-tight text-white"
-              >
-                Shipping
-              </h2>
-              <p class="slide-description">
-                There is availability and scope of barges for the offshore
-                loading of fuel to ships in the different ports.
-                <br />
-                <br />
-
-                There is access to supply directly from refineries at any port
-                in Texas, transporting the product to the specific facilities
-                for proper storage and loading in a safe and efficient manner.
-                <br />
-                <br />
-
-                This flexibility ensures a constant supply of highquality
-                products to our customers.
-              </p>
-            </div>
-          </div>
-          <div
-            class="swiper-slide slide_4 bg-auto bg-[url('../images/storage.jpg')]"
-          >
-            <div class="bg-[#1f232d]/70 absolute inset-0 w-full h-full"></div>
-
-            <div
-              class="slide-content text-white p-4 bg-black bg-opacity-50 max-w-md mx-auto rounded relative"
-            >
-              <h2
-                class="font-medium font-secondary mt-6 text-4xl md:text-[76px] leading-tight text-white"
-              >
-                Storage
-              </h2>
-              <p class="slide-description">
-                Vision International Petroleum has commercial alliances in
-                strategic storage positions to support physical supply.
-                <br />
-                <br />
-
-                We ensure the solidity and security of supply of the highest
-                quality fuels that comply with international standards (IMO), as
-                well as quality assurances, which combines with our solidity in
-                logistics to deliver operational excellence.
-              </p>
-            </div>
-          </div>
-
-          <div
-            class="swiper-slide slide_4 bg-auto bg-[url('../images/logistics_solutions.jpg')]"
-          >
-            <div class="bg-[#1f232d]/70 absolute inset-0 w-full h-full"></div>
-
-            <div
-              class="slide-content text-white p-4 bg-black bg-opacity-50 max-w-md mx-auto rounded relative"
-            >
-              <h2
-                class="font-medium font-secondary mt-6 text-4xl md:text-[76px] leading-tight text-white"
-              >
-                Logistics
-              </h2>
-              <p class="slide-description">
-                Vision International Petroleum has extensive experience in
-                ensuring excellence and unparalleled levels of punctuality in
-                service.
-                <br />
-                <br />
-
-                Our services are tailored to specific supply operations,
-                ensuring peace of mind to owners and operators for the
-                efficiency, speed, quality, safety and reliability of our
-                operations.
-              </p>
-            </div>
-          </div>
-
-          <div
-            class="swiper-slide slide_5 bg-auto bg-[url('../images/operations.jpg')]"
-          >
-            <div class="bg-[#1f232d]/70 absolute inset-0 w-full h-full"></div>
-
-            <div
-              class="slide-content text-white p-4 bg-black bg-opacity-50 max-w-md mx-auto rounded relative"
-            >
-              <h2
-                class="font-medium font-secondary mt-6 text-4xl md:text-[76px] leading-tight text-white"
-              >
-                Operations
-              </h2>
-              <p class="slide-description">
-                Vision International Petroleum's operations ensure a quality
-                supply and service delivery is offered 24/7 with any vessel and
-                port.
-                <br />
-                <br />
-
-                We have the support of Agents, port authorities, barges,
-                terminals and other intermediaries to deliver a smooth and safe
-                supply to our customers.
-              </p>
-            </div>
+              How we do it: Supply Chain
+            </h3>
+            <!-- <div class="mt-6 gap-4 flex items-center justify-center">
+              <a href="#" class="btn-custom">Get Started</a>
+              <span class="text-white">or</span>
+              <a
+                href="#"
+                data-type="youtube"
+                data-id="YjhrligRTbE"
+                class="lightbox text-dark h-[58px] w-[58px] leading-[58px] rounded-full bg-white inline-block text-[26px]"
+                ><i class="mdi mdi-play"></i
+              ></a>
+            </div> -->
           </div>
         </div>
-        <div class="swiper-pagination"></div>
       </div>
-      <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div>
-    </div>
+    </section>
+    <!-- End Hero-->
 
-    <footer class="bg-[#222527] py-12">
+    <section id="tanker">
+      <div
+        class="flex justify-center items-center bg-cover relative bg-center bg-fixed bg-[url('../images/charge-2.JPG')] h-96"
+      >
+        <div class="absolute inset-0 w-full bg-[#1f232d]/70"></div>
+        <div class="container relative">
+          <div class="grid grid-cols-1">
+            <h1 class="text-center text-white text-3xl">Charge</h1>
+          </div>
+        </div>
+      </div>
+      <div class="container mt-16">
+        <p class="text-muted leading-relaxed text-justify mt-8">
+          Vision International Petroleum has the complete supply chain from
+          shipping, loading, storage, blending and sourcing through fleets of
+          barges, we have the support and proven experience in supply,
+          guaranteeing a high quality service in the market.
+        </p>
+      </div>
+    </section>
+
+    <section id="tanker" class="mt-16">
+      <div
+        class="flex justify-center items-center bg-cover relative bg-center bg-fixed bg-[url('../images/shipping.JPG')] h-96"
+      >
+        <div class="absolute inset-0 w-full bg-[#1f232d]/70"></div>
+        <div class="container relative">
+          <div class="grid grid-cols-1">
+            <h1 class="text-center text-white text-3xl">Shipping</h1>
+          </div>
+        </div>
+      </div>
+      <div class="container mt-16">
+        <p class="text-muted leading-relaxed text-justify mt-8">
+          There is availability and scope of barges for the offshore loading of
+          fuel to ships in the different ports.
+        </p>
+        <p class="text-muted leading-relaxed text-justify mt-4">
+          There is access to supply directly from refineries at any port in
+          Texas, transporting the product to the specific facilities for proper
+          storage and loading in a safe and efficient manner.
+        </p>
+        <p class="text-muted leading-relaxed text-justify mt-4">
+          This flexibility ensures a constant supply of highquality products to
+          our customers.
+        </p>
+      </div>
+    </section>
+
+    <section id="tanker" class="mt-16">
+      <div
+        class="flex justify-center items-center bg-cover relative bg-center bg-fixed bg-[url('../images/storage.jpg')] h-96"
+      >
+        <div class="absolute inset-0 w-full bg-[#1f232d]/70"></div>
+        <div class="container relative">
+          <div class="grid grid-cols-1">
+            <h1 class="text-center text-white text-3xl">Storage</h1>
+          </div>
+        </div>
+      </div>
+      <div class="container mt-16">
+        <p class="text-muted leading-relaxed text-justify mt-8">
+          Vision International Petroleum has commercial alliances in strategic
+          storage positions to support physical supply.
+        </p>
+        <p class="text-muted leading-relaxed text-justify mt-4">
+          We ensure the solidity and security of supply of the highest quality
+          fuels that comply with international standards (IMO), as well as
+          quality assurances, which combines with our solidity in logistics to
+          deliver operational excellence.
+        </p>
+      </div>
+    </section>
+
+    <section id="tanker" class="mt-16">
+      <div
+        class="flex justify-center items-center bg-cover relative bg-center bg-fixed bg-[url('../images/logistics_solutions.jpg')] h-96"
+      >
+        <div class="absolute inset-0 w-full bg-[#1f232d]/70"></div>
+        <div class="container relative">
+          <div class="grid grid-cols-1">
+            <h1 class="text-center text-white text-3xl">Logistics</h1>
+          </div>
+        </div>
+      </div>
+      <div class="container mt-16">
+        <p class="text-muted leading-relaxed text-justify mt-8">
+          Vision International Petroleum has extensive experience in ensuring
+          excellence and unparalleled levels of punctuality in service.
+        </p>
+        <p class="text-muted leading-relaxed text-justify mt-4">
+          Our services are tailored to specific supply operations, ensuring
+          peace of mind to owners and operators for the efficiency, speed,
+          quality, safety and reliability of our operations.
+        </p>
+      </div>
+    </section>
+
+    <section id="tanker" class="mt-16">
+      <div
+        class="flex justify-center items-center bg-cover relative bg-center bg-fixed bg-[url('../images/operations.JPG')] h-96"
+      >
+        <div class="absolute inset-0 w-full bg-[#1f232d]/70"></div>
+        <div class="container relative">
+          <div class="grid grid-cols-1">
+            <h1 class="text-center text-white text-3xl">Operations</h1>
+          </div>
+        </div>
+      </div>
+      <div class="container mt-16">
+        <p class="text-muted leading-relaxed text-justify mt-8">
+          Vision International Petroleum's operations ensure a quality supply
+          and service delivery is offered 24/7 with any vessel and port.
+        </p>
+        <p class="text-muted leading-relaxed text-justify mt-4">
+          We have the support of Agents, port authorities, barges, terminals and
+          other intermediaries to deliver a smooth and safe supply to our
+          customers.
+        </p>
+      </div>
+    </section>
+
+    <footer class="bg-[#222527] py-12 mt-32">
       <div class="container">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-7 gap-6">
           <div class="md:col-span-2 lg:col-span-2">
@@ -454,14 +476,14 @@
               </li>
               <li>
                 <a
-                  href="#"
+                  href="lpg-lng.html"
                   class="text-white/40 text-sm duration-300 inline-block hover:text-white"
                   >LPG & LNG</a
                 >
               </li>
               <li>
                 <a
-                  href="#"
+                  href="contact.html"
                   class="text-white/40 text-sm duration-300 inline-block hover:text-white"
                   >GET IN TOUCH</a
                 >
@@ -530,7 +552,7 @@
 
     <!-- All Script -->
     <!-- Swiper Js -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
 
     <!-- Tobii Js -->
     <script src="assets/js/tobii.min.js"></script>

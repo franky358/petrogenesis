@@ -68,3 +68,13 @@
 gmp-map {
   height: 100%;
 }
+
+.text-blue {
+  color: #0077b6;
+}
+
+@media (min-width: 1024px) {
+  .container-nav {
+    max-width: 1200px;
+  }
+}
