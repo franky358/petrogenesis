@@ -1,0 +1,70 @@
+/* Import google font (Balsamiq Sans) */
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+/* Swiper container stylng */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  /* Center slide text vertically */
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slide_1 {
+  background-color: #643ca3;
+}
+
+.slide_2 {
+  background-color: #e38364;
+}
+
+.slide_3 {
+  background-color: #faf47a;
+}
+
+.slide_4 {
+  background-color: #64e3c1;
+}
+
+.slide_5 {
+  background-color: #9e6ffd;
+}
+#solutions {
+  position: relative;
+}
+
+#solutions .swiper-button-next,
+#solutions .swiper-button-prev {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  width: 50px;
+  height: 50px;
+  margin-top: -25px; /* Ajusta según sea necesario */
+  border-radius: 50%;
+  /* Otros estilos aquí */
+}
+
+#solutions .swiper-button-next {
+  right: 10px;
+}
+
+#solutions .swiper-button-prev {
+  left: 10px;
+}
+
+gmp-map {
+  height: 100%;
+}
