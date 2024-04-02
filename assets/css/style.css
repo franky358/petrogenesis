@@ -844,6 +844,10 @@ h1,h2,h3,h4,h5,h6{
   right: 0px;
 }
 
+.right-4{
+  right: 1rem;
+}
+
 .right-5{
   right: 1.25rem;
 }
@@ -852,56 +856,8 @@ h1,h2,h3,h4,h5,h6{
   top: 0px;
 }
 
-.left-1\/2{
-  left: 50%;
-}
-
-.top-1\/2{
-  top: 50%;
-}
-
 .top-56{
   top: 14rem;
-}
-
-.left-32{
-  left: 8rem;
-}
-
-.left-56{
-  left: 14rem;
-}
-
-.left-96{
-  left: 24rem;
-}
-
-.left-64{
-  left: 16rem;
-}
-
-.left-80{
-  left: 20rem;
-}
-
-.left-52{
-  left: 13rem;
-}
-
-.right-1\/4{
-  right: 25%;
-}
-
-.right-12{
-  right: 3rem;
-}
-
-.right-4{
-  right: 1rem;
-}
-
-.right-6{
-  right: 1.5rem;
 }
 
 .z-50{
@@ -928,6 +884,10 @@ h1,h2,h3,h4,h5,h6{
 
 .mb-2{
   margin-bottom: 0.5rem;
+}
+
+.mb-32{
+  margin-bottom: 8rem;
 }
 
 .mt-1{
@@ -960,10 +920,6 @@ h1,h2,h3,h4,h5,h6{
 
 .mt-8{
   margin-top: 2rem;
-}
-
-.mb-32{
-  margin-bottom: 8rem;
 }
 
 .block{
@@ -1006,6 +962,10 @@ h1,h2,h3,h4,h5,h6{
   height: 1.25rem;
 }
 
+.h-56{
+  height: 14rem;
+}
+
 .h-6{
   height: 1.5rem;
 }
@@ -1032,34 +992,6 @@ h1,h2,h3,h4,h5,h6{
 
 .h-full{
   height: 100%;
-}
-
-.h-screen{
-  height: 100vh;
-}
-
-.h-20{
-  height: 5rem;
-}
-
-.h-40{
-  height: 10rem;
-}
-
-.h-52{
-  height: 13rem;
-}
-
-.h-60{
-  height: 15rem;
-}
-
-.h-56{
-  height: 14rem;
-}
-
-.max-h-56{
-  max-height: 14rem;
 }
 
 .w-1{
@@ -1121,10 +1053,6 @@ h1,h2,h3,h4,h5,h6{
 
 .max-w-\[700px\]{
   max-width: 700px;
-}
-
-.max-w-md{
-  max-width: 28rem;
 }
 
 .shrink-0{
@@ -1291,10 +1219,6 @@ h1,h2,h3,h4,h5,h6{
   background-color: rgb(255 255 255 / 0.1);
 }
 
-.bg-opacity-50{
-  --tw-bg-opacity: 0.5;
-}
-
 .bg-\[url\(\'\.\.\/images\/about1\.jpg\'\)\]{
   background-image: url('../images/about1.jpg');
 }
@@ -1307,8 +1231,16 @@ h1,h2,h3,h4,h5,h6{
   background-image: url('../images/bunker_oil_hero.jpg');
 }
 
-.bg-\[url\(\'\.\.\/images\/charge\.jpg\'\)\]{
-  background-image: url('../images/charge.jpg');
+.bg-\[url\(\'\.\.\/images\/charge-2\.JPG\'\)\]{
+  background-image: url('../images/charge-2.JPG');
+}
+
+.bg-\[url\(\'\.\.\/images\/crude-oil-1\.jpg\'\)\]{
+  background-image: url('../images/crude-oil-1.jpg');
+}
+
+.bg-\[url\(\'\.\.\/images\/crude-oil-2\.JPG\'\)\]{
+  background-image: url('../images/crude-oil-2.JPG');
 }
 
 .bg-\[url\(\'\.\.\/images\/crude-oil\.jpg\'\)\]{
@@ -1335,12 +1267,20 @@ h1,h2,h3,h4,h5,h6{
   background-image: url('../images/logistics_solutions.jpg');
 }
 
+.bg-\[url\(\'\.\.\/images\/natural_gas\.jpeg\'\)\]{
+  background-image: url('../images/natural_gas.jpeg');
+}
+
+.bg-\[url\(\'\.\.\/images\/natural_gas_2\.JPG\'\)\]{
+  background-image: url('../images/natural_gas_2.JPG');
+}
+
 .bg-\[url\(\'\.\.\/images\/oil_pump\.jpg\'\)\]{
   background-image: url('../images/oil_pump.jpg');
 }
 
-.bg-\[url\(\'\.\.\/images\/operations\.jpg\'\)\]{
-  background-image: url('../images/operations.jpg');
+.bg-\[url\(\'\.\.\/images\/operations\.JPG\'\)\]{
+  background-image: url('../images/operations.JPG');
 }
 
 .bg-\[url\(\'\.\.\/images\/sale_natural_gas\.jpg\'\)\]{
@@ -1355,68 +1295,24 @@ h1,h2,h3,h4,h5,h6{
   background-image: url('../images/services.jpg');
 }
 
-.bg-\[url\(\'\.\.\/images\/shipping\.jpg\'\)\]{
-  background-image: url('../images/shipping.jpg');
-}
-
-.bg-\[url\(\'\.\.\/images\/storage\.jpg\'\)\]{
-  background-image: url('../images/storage.jpg');
-}
-
-.bg-\[url\(\'\.\.\/images\/what-we-offer-hero\.jpg\'\)\]{
-  background-image: url('../images/what-we-offer-hero.jpg');
+.bg-\[url\(\'\.\.\/images\/shipping\.JPG\'\)\]{
+  background-image: url('../images/shipping.JPG');
 }
 
 .bg-\[url\(\'\.\.\/images\/solutions-suply\.jpg\'\)\]{
   background-image: url('../images/solutions-suply.jpg');
 }
 
-.bg-\[url\(\'\.\.\/images\/charge\.JPG\'\)\]{
-  background-image: url('../images/charge.JPG');
-}
-
-.bg-\[url\(\'\.\.\/images\/charge-2\.JPG\'\)\]{
-  background-image: url('../images/charge-2.JPG');
-}
-
-.bg-\[url\(\'\.\.\/images\/shiping\.JPG\'\)\]{
-  background-image: url('../images/shiping.JPG');
-}
-
-.bg-\[url\(\'\.\.\/images\/shipping\.JPG\'\)\]{
-  background-image: url('../images/shipping.JPG');
-}
-
-.bg-\[url\(\'\.\.\/images\/operations\.JPG\'\)\]{
-  background-image: url('../images/operations.JPG');
-}
-
-.bg-\[url\(\'\.\.\/images\/crude-oil-1\.jpg\'\)\]{
-  background-image: url('../images/crude-oil-1.jpg');
-}
-
-.bg-\[url\(\'\.\.\/images\/crude-oil-2\.jpg\'\)\]{
-  background-image: url('../images/crude-oil-2.jpg');
-}
-
-.bg-\[url\(\'\.\.\/images\/crude-oil-2\.JPG\'\)\]{
-  background-image: url('../images/crude-oil-2.JPG');
+.bg-\[url\(\'\.\.\/images\/storage\.jpg\'\)\]{
+  background-image: url('../images/storage.jpg');
 }
 
 .bg-\[url\(\'\.\.\/images\/tanques\.jpg\'\)\]{
   background-image: url('../images/tanques.jpg');
 }
 
-.bg-\[url\(\'\.\.\/images\/natural_gas\.jpeg\'\)\]{
-  background-image: url('../images/natural_gas.jpeg');
-}
-
-.bg-\[url\(\'\.\.\/images\/natural_gas_2\.JPG\'\)\]{
-  background-image: url('../images/natural_gas_2.JPG');
-}
-
-.bg-auto{
-  background-size: auto;
+.bg-\[url\(\'\.\.\/images\/what-we-offer-hero\.jpg\'\)\]{
+  background-image: url('../images/what-we-offer-hero.jpg');
 }
 
 .bg-cover{
@@ -1441,12 +1337,13 @@ h1,h2,h3,h4,h5,h6{
      object-fit: cover;
 }
 
-.p-4{
-  padding: 1rem;
-}
-
 .p-8{
   padding: 2rem;
+}
+
+.px-4{
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .px-8{
@@ -1489,11 +1386,6 @@ h1,h2,h3,h4,h5,h6{
   padding-bottom: 45px;
 }
 
-.px-4{
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
 .pb-16{
   padding-bottom: 4rem;
 }
@@ -1524,10 +1416,6 @@ h1,h2,h3,h4,h5,h6{
 
 .text-center{
   text-align: center;
-}
-
-.text-right{
-  text-align: right;
 }
 
 .text-justify{
