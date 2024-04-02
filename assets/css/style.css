@@ -994,6 +994,14 @@ h1,h2,h3,h4,h5,h6{
   height: 100%;
 }
 
+.h-\[200px\]{
+  height: 200px;
+}
+
+.h-\[500px\]{
+  height: 500px;
+}
+
 .w-1{
   width: 0.25rem;
 }
